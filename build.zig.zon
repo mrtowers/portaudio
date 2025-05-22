@@ -1,5 +1,5 @@
 .{
-    .name = "portaudio",
+    .name = .portaudio,
     .version = "19.7.0-2",
     .minimum_zig_version = "0.13.0",
     .dependencies = .{
@@ -14,4 +14,5 @@
         "build.zig",
         "build.zig.zon",
     },
+    .fingerprint = 0x2a7a2a31c9d275af,
 }
